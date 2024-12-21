@@ -1,0 +1,100 @@
+body{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+
+.container{
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* sfondo nero semitrasparente */
+.black-block{
+    margin-top: 50px;
+    width: 900px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 0px solid rgba(0, 0, 0);
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.logo{
+    height: 80px;
+    width: 175px;
+    background-image: url(img/logo.png);
+    background-size: contain;
+    display: inline-block;
+    margin-top: 60px;
+}
+
+.titolo1{
+    margin-top: 0px;
+    color: rgb(0, 221, 0);
+    font-size: 25px;
+
+}
+/* nav sfondo verde*/
+.green-block{
+    width: 650px;
+    height: 30px;
+    background-color: rgb(0, 221, 0, 1);
+    display: inline-block;
+    position: relative;
+}
+
+/* pulsanti */
+button{
+    font-size: 8px;
+    position: relative;
+    top: 3px;
+}
+
+/* per centrare i monopattini sulla sinistra del blocco verde */
+.invisible-block{
+    width: 650px;
+    display: inline-block;
+    position: relative;
+    text-align: left;
+}
+
+/* testo bianco */
+h2{
+    display: inline-block;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 18px;
+}
+
+p{
+    margin: 0px;
+    color: white;
+    font-size: 12px;
+}
+
+/* blocco ricarica arancio */
+.carica1{
+    width: 220px;
+    height: 20px;
+    background-color: rgb(253, 207, 122);
+    border-radius: 3px;
+}
+
+/* blocco ricarica verde */
+.carica2{
+    width: 400px;
+    height: 20px;
+    background-color: rgb(0, 221, 0);
+    border-radius: 3px;
+}
+
+/* blocco ricarica rosso */
+.carica3{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(208, 87, 87);
+    border-radius: 3px;
+}
